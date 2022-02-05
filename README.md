@@ -1,6 +1,5 @@
 <div id="top"></div>
 
-<h1 align="center"> AP course project  </h1>
 
 <p align="center">
     <a alt="Version">
