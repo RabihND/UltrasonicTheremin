@@ -1,6 +1,9 @@
 <div id="top"></div>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 41464ff3f15be529283664e4d66288f75ad9c805
 
 <p align="center">
     <a alt="Version">
@@ -93,7 +96,13 @@ By building an ultrasonic theremin, you will learn:
     - Ultrasonic Distance Sensor
     - 3 x Male to Male Jumper Leads
     - 4 x Male to Female Jumper Leads
+- **2.2. Software:**
 
+    This project relies on the latest version of Sonic Pi and python-osc. To install the software you need, run the following commands in a terminal window:
+    ```zsh
+    sudo apt update && sudo apt upgrade -y
+    sudo pip3 install python-osc
+    ```
 
 **3. GameOverWindow Class** (GUI_Window)
 
