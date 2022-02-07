@@ -101,6 +101,16 @@ By building an ultrasonic theremin, you will learn:
 
 **3. Setting up the circuitry**
 
+<p align="justify">An <b>ultrasonic distance sensor</b> is a device that sends out pulses of ultrasonic sound, and measures the time they take to bounce off nearby objects and be reflected back. They can measure distances fairly accurately, up to about a meter.</p>
+
+An ultrasonic distance sensor has four pins. They are called <b><i>Ground (Gnd), Trigger (Trig), Echo (Echo) and Power (Vcc)</i></b>.
+
+To use an ultrasonic distance sensor you need to connect the <b>Gnd pin</b> to the ground pin on the Raspberry Pi, the <b>Trig pin</b> to a GPIO pin on the Raspberry Pi and the <b>Vcc pin</b> to the 5V pin on the Raspberry Pi.
+
+The <b>Echo pin</b> is a little more complicated. It needs to be connected through a <i>330 ohm resistor</i> to a GPIO pin on the Raspberry Pi, and that pin needs to be grounded through a <i>470 ohm resistor</i>.
+
+The diagram below shows one suggested arrangement for setting this up.
+
 
 
 
