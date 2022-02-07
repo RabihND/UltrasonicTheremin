@@ -111,6 +111,8 @@ The <b>Echo pin</b> is a little more complicated. It needs to be connected throu
 
 The diagram below shows one suggested arrangement for setting this up.
 
+<p align="center"> <img  src="./stuff/circuit.png" width="400"> </p>  
+
 
 
 
