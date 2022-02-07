@@ -1,6 +1,6 @@
 <div id="top"></div>
 
-<h1 align="center"> AP course project  </h1>
+
 
 <p align="center">
     <a alt="Version">
@@ -77,25 +77,23 @@ Major frameworks/libraries used in this project:
 
 <!-- PARTS -->
 ## Parts
-**1. Master Mind Class**
+**1. What you will learn?**
 
-The main MasterMind game Process; it contains:
-- **get_random_solution()**:  Returns a random "solution" to be the hidden code.
-- **check_guess()**: Returns the nb of "correct" and nb of "misplaced" guess.
-- **get_correct_colors()**: Returns the "correct" colors.
-- **get_misplaced_colors()**: Returns the "misplaced" colors.
-- **is_won()**: Verify that the guess is correct according to the solution.
+By building an ultrasonic theremin, you will learn:
+- How to **detect distances** with an ultrasonic distance sensor.
+- How to **communicate** variables between Sonic Pi and Python.
+
  
-**2. MainWindowUi  Class** (GUI_Window)
+**2. What you will need?** 
 
-The main window of the game designed by Qt; it contains:
-- **setupUi()**: The QT codes that generate the main window.
-- **resetButtonClicked()**:  That delete the selected colors.
-- **set_thisguesstable()**: connect the colors.
-- **clicked_color()**: Send the selected colors to the Guess table.
-- **clicked_submit()**:  After clicking the submit button; its check the guess and return the score to the Scores Table.
-- **show_game_over()**: Show the Game Over Dialog.
--**print_score()**: print score in the terminal (NOT GUI).
+- **2.1. Hardware:** 
+    - 330Ω Resistor
+    - 470Ω Resistor
+    - Solderless Breadboard
+    - Ultrasonic Distance Sensor
+    - 3 x Male to Male Jumper Leads
+    - 4 x Male to Female Jumper Leads
+
 
 **3. GameOverWindow Class** (GUI_Window)
 
@@ -154,9 +152,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Rabih ND - [@RabihND](https://github.com/RabihND) 
 
-Hasan Sanei - [@hasansanei](https://github.com/hasansanei)
 
-**Project Link:** [https://github.com/RabihND/AP2021-2022-Final](https://github.com/RabihND/AP2021-2022-Final)
+**Project Link:** [https://github.com/RabihND/UltrasonicTheremin](https://github.com/RabihND/UltrasonicTheremin)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -164,28 +161,12 @@ Hasan Sanei - [@hasansanei](https://github.com/hasansanei)
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Write the main code-map.
-- [x] Design the GUI window. 
-- [x] Write the MasterMain Core Functions.
-- [x] Design the GameOver window.
-- [x] <a href="https://github.com/RabihND/AP2021-2022-Final/releases/latest"><strong>Build the .EXE Release</strong></a>
-- [ ] Splash screen
-- [ ] Build APK release.
-
+- [x] 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 ---
-<div align="center">
-<p>
-<img src="./stuff/logo.png" width="110">
-<p align="center"><b>
-Amirkabir University  of Technology</b>
 
-(Tehran Polytechnic)
-</p>
-</p>
-</div>
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
