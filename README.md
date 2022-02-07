@@ -1,10 +1,5 @@
 <div id="top"></div>
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 41464ff3f15be529283664e4d66288f75ad9c805
-
 <p align="center">
     <a alt="Version">
         <img src="https://img.shields.io/github/v/release/RabihND/AP2021-2022-Final?color=14adfa&logo=Semantic%20Web&logoColor=14adfa&style=for-the-badge" /></a>
@@ -104,13 +99,8 @@ By building an ultrasonic theremin, you will learn:
     sudo pip3 install python-osc
     ```
 
-**3. GameOverWindow Class** (GUI_Window)
+**3. Setting up the circuitry**
 
-The resulting window, which shows the player's loss(+) or victory(-).
-- **display_text()**: Return a text with include the result of the game.(Win/Loss)
-
-**4. Splash Screen Class** (GUI_Windows)
->{⌛} 
 
 
 
