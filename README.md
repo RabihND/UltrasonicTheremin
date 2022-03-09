@@ -117,25 +117,9 @@ The diagram below shows one suggested arrangement for setting this up.
 <!-- RESULTS -->
 ## Results
 
-**GUI OUTPUT:**
-<details>
-<summary>ScreenShoot Preview 🖼️</summary>
-  <body>
-    <p align="center"> <img src="./stuff/GUI_output.jpg" width="200"> </p>
-  </body>
-</details>
-
----
-
-**TERMINAL OUTPUT:**
-<details>
-<summary>ScreenShoot Preview 🖼️</summary>
-  <body>
-    <p align="center"> <img src="./stuff/terminal_output.jpg" width="300"> </p>
-  </body>
-</details>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
 
 <!-- LICENSE -->
 ## License
